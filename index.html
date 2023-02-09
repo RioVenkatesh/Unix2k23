@@ -25,69 +25,76 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.p{
-    display: none;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-#mybutton{
-    font-size: 30px;
-    width: 60px;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        
+        .p {
+            display: none;
+        }
+        
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+        
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        #mybutton {
+            font-size: 30px;
+            width: 60px;
+        }
+        
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header>
-    
+
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#home">Home</a>
             <a href="#aboutprograms">About Programs</a>
             <a href="#events">Events</a>
             <a href="#contact">Contact</a>
-          </div>
-          
+        </div>
+
 
         <div class="bg-transparent fixed-top ms-3"> <button class="btn btn-outline-light" id="mybutton" onclick="openNav()">&#9776;</button></div>
-           
-    
-          
-            
+
+
+
+
     </header>
     <!-- header-end -->
 
@@ -113,29 +120,35 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </div>
     <!-- slider_area_end -->
 
- <!-- about_area_start  -->
- <div class="about_area black_bg pt-5" id="aboutprograms">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-12">
-                <div class="section_title text-center">
-                    <h4 class="wow fadeInRight glow mb-5" data-wow-duration="1s" data-wow-delay=".4s" >STATE LEVEL TECHNICAL SYMPOSIUM</h4><br>
-                    <p class="wow fadeInRight text-light" data-wow-duration="1s" data-wow-delay=".4s" >EVENT DATE: FEB 16<sup class="text-light">th</sup> and 17<sup class="text-light">th</sup></p>
-                    <p class="wow fadeInRight mb-3 text-light" data-wow-duration="1s" data-wow-delay=".4s" >PARTCIPANTS SHOULD COME BEFORE 9:00AM ON FEBRUARY 16<sup class="text-light">th</sup>, 2023</p><BR><BR>
+    <!-- about_area_start  -->
+    <div class="about_area black_bg pt-5" id="aboutprograms">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section_title text-center">
+                        <h4 class="wow fadeInRight glow mb-5" data-wow-duration="1s" data-wow-delay=".4s">STATE LEVEL TECHNICAL SYMPOSIUM</h4><br>
+                        <p class="wow fadeInRight text-light" data-wow-duration="1s" data-wow-delay=".4s">EVENT DATE: FEB 16<sup class="text-light">th</sup> and 17<sup class="text-light">th</sup></p>
+                        <p class="wow fadeInRight mb-3 text-light" data-wow-duration="1s" data-wow-delay=".4s">PARTCIPANTS SHOULD COME BEFORE 9:00AM ON FEBRUARY 16<sup class="text-light">th</sup>, 2023</p>
+                        <!-- 
+                        <p class="wow fadeInRight mb-3 text-light" data-wow-duration="1s" data-wow-delay=".4s">Cash Prize ₹ 10,000</p> -->
+                        <p class="wow fadeInRight mb-3 fs-2" data-wow-duration="1s" data-wow-delay=".4s"></p><i class="fa-solid fa-triangle-exclamation text-warning"></i> <span class="fs-3 blink mx-3">Registration Fee ₹ 200</span><i class="fa-solid fa-triangle-exclamation text-warning"></i></p>
+                        <BR>
+                        <BR>
+
                         <a href="img/UNIQUE'S 2K23.pdf" class="boxed-btn3 shadow rounded-5 wow fadeInLeft me-2" data-wow-duration="1s" data-wow-delay=".7s">Event Rules</a>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-98LpIK1DtV-9TSD9ZaycFG5sE7v02Y7HlhPtgsvgj9d5bA/viewform" class="boxed-btn3 shadow rounded-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Register</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- about_area_end  -->
-   
+    <!-- about_area_end  -->
+
 
     <div class="program_details_area detials_bg_1 overlay2 mt-0" id="events">
         <div class="container">
@@ -154,19 +167,19 @@
                                 <div class="circle_img"></div>
                                 <div class="porgram_top">
                                     <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Arcus (Debugging)</span>
-                                    
+
                                 </div>
                                 <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                     <img src="img/program_details/debug.jpg" alt="">
                                 </div>
                                 <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Sugapriya.</h4>
-                                
+
                                 <ul class="text-light">
                                     <li>Aptitude & Programming Questions only.</li>
                                     <li>Questions will be posted as QR codes.</li>
                                     <li>Solo Participant.</li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                         <div class="single_propram">
@@ -179,7 +192,7 @@
                                     <img src="img/program_details/blind programming.jpg" alt="">
                                 </div>
                                 <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Prem Kumar.</h4>
-                                
+
                                 <ul class="text-light">
                                     <li>Aptitude & Programming Questions only.</li>
                                     <li>Questions will be posted as QR codes.</li>
@@ -192,19 +205,19 @@
                                 <div class="circle_img"></div>
                                 <div class="porgram_top">
                                     <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Securis (Output to Coding)</span>
-                                    
+
                                 </div>
                                 <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                     <img src="img/program_details/outputtocoding.jpeg" alt="">
                                 </div>
                                 <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Arun Kumar.</h4>
-                                
+
                                 <ul class="text-light">
                                     <li>Aptitude & Programming Questions only.</li>
                                     <li>Questions will be posted as QR codes.</li>
                                     <li>Solo Participant.</li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                         <div class="single_propram">
@@ -217,7 +230,7 @@
                                     <img src="img/program_details/technical connection.jpg" alt="">
                                 </div>
                                 <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Abinaya.</h4>
-                                
+
                                 <ul class="text-light">
                                     <li>Technical based images will be displayed with their own connectivity.</li>
                                 </ul>
@@ -228,129 +241,129 @@
                                 <div class="circle_img"></div>
                                 <div class="porgram_top">
                                     <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Hasta (Paper Presentation)</span>
-                                    
+
                                 </div>
                                 <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                     <img src="img/program_details/paperpresent.jpg" alt="">
                                 </div>
                                 <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Dhivya Shree.</h4>
-                                
+
                                 <ul class="text-light">
                                     <li>Time Duration: 8-10Minutes.</li>
                                     <li>Don't Overload your Presentation with Animation, Diagrams and Charts.</li>
                                 </ul>
-                                
+
                             </div>
                         </div>
-                        
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section_title text-center mb-5 wow fadeInRight glow" data-wow-duration="1s" data-wow-delay=".3s">
-                    <h3>NON-TECHNICAL EVENTS</h3>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-5 wow fadeInRight glow" data-wow-duration="1s" data-wow-delay=".3s">
+                        <h3>NON-TECHNICAL EVENTS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="program_detail_wrap">
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sphora (BGM Finding)</span>
+                                </div>
+                                <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/music.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Nagarathinam.</h4>
+
+                                <ul class="text-light">
+                                    <li>Tingle your ears with your amazing ability</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Arcum Cirus (Photography)</span>
+
+                                </div>
+                                <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/photography.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Jai Prasanna.</h4>
+
+                                <ul class="text-light">
+                                    <li>capture the moments with the presence of mind.</li>
+
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Iaculum (Dance)</span>
+                                </div>
+                                <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/dance.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Nagarathinam.</h4>
+
+                                <ul class="text-light">
+                                    <li>Show off your skills towards victory </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Cutlass (MEME Creation)</span>
+
+                                </div>
+                                <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/meme.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Rajalakshmi.</h4>
+
+                                <ul class="text-light">
+                                    <li>Testing your content creation ability with the technical knowledge.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="single_propram mb-5">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Jaculum (Treasure Hunt)</span>
+                                </div>
+                                <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/treasurehunt.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Madhan kumar.</h4>
+
+                                <ul class="text-light">
+                                    <li>Hunters may hunt animals likewise you should hunt the treasure.</li>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="program_detail_wrap">
-                    <div class="single_propram">
-                        <div class="inner_wrap">
-                            <div class="circle_img"></div>
-                            <div class="porgram_top">
-                                <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sphora (BGM Finding)</span>
-                            </div>
-                            <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/program_details/music.jpg" alt="">
-                            </div>
-                            <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Nagarathinam.</h4>
-                            
-                            <ul class="text-light">
-                                <li>Tingle your ears with your amazing ability</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single_propram">
-                        <div class="inner_wrap">
-                            <div class="circle_img"></div>
-                            <div class="porgram_top">
-                                <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Arcum Cirus (Photography)</span>
-                                
-                            </div>
-                            <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/program_details/photography.jpg" alt="">
-                            </div>
-                            <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Jai Prasanna.</h4>
-                            
-                            <ul class="text-light">
-                                <li>capture the moments with the presence of mind.</li>
-                            
-                        </div>
-                    </div>
-                    <div class="single_propram">
-                        <div class="inner_wrap">
-                            <div class="circle_img"></div>
-                            <div class="porgram_top">
-                                <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Iaculum (Dance)</span>
-                            </div>
-                            <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/program_details/dance.jpg" alt="">
-                            </div>
-                            <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Nagarathinam.</h4>
-                            
-                            <ul class="text-light">
-                                <li>Show off your skills towards victory </li>
 
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single_propram">
-                        <div class="inner_wrap">
-                            <div class="circle_img"></div>
-                            <div class="porgram_top">
-                                <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Cutlass (MEME Creation)</span>
-                                
-                            </div>
-                            <div data-tilt class="thumb wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/program_details/meme.jpg" alt="">
-                            </div>
-                            <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Rajalakshmi.</h4>
-                            
-                            <ul class="text-light">
-                                <li>Testing your content creation ability with the technical knowledge.</li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                    <div class="single_propram mb-5">
-                        <div class="inner_wrap">
-                            <div class="circle_img"></div>
-                            <div class="porgram_top">
-                                <span class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Jaculum (Treasure Hunt)</span>
-                            </div>
-                            <div data-tilt class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/program_details/treasurehunt.jpg" alt="">
-                            </div>
-                            <h4 class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s"><span style="color: rgb(255, 213, 0);">Event Coordinator:</span> Madhan kumar.</h4>
-                            
-                            <ul class="text-light">
-                                <li>Hunters may hunt animals likewise you should hunt the treasure.</li>
-                        </div>
-                    </div>
-                    
-            </div>
-        </div>
-    </div>
-</div>
-
-<br><br><br>
-    <!-- performar_area_start  -->
-    <!-- <div class="performar_area black_bg" id="performer">
+        <br><br><br>
+        <!-- performar_area_start  -->
+        <!-- <div class="performar_area black_bg" id="performer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -381,152 +394,153 @@
             </div>
         </div>
     </div> -->
-    <!-- performar_area_end  -->
-    <!-- map_area_start  -->
-    <div class="map_area">
-       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.0683298600215!2d78.00841102218077!3d9.940392193290949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cc053700f88b%3A0xd71028a15667acea!2sSchool%20Of%20Information%20Technology!5e1!3m2!1sen!2sin!4v1675092874681!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <div class="info_wrap">
-                <div class="single_info">
-                <span>Venue:</span>
+        <!-- performar_area_end  -->
+        <!-- map_area_start  -->
+        <div class="map_area">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.0683298600215!2d78.00841102218077!3d9.940392193290949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cc053700f88b%3A0xd71028a15667acea!2sSchool%20Of%20Information%20Technology!5e1!3m2!1sen!2sin!4v1675092874681!5m2!1sen!2sin"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                <div class="info_wrap">
+                    <div class="single_info">
+                        <span>Venue:</span>
+                    </div>
+                    <div class="single_info">
+
+                        <p>Department of Computer Science</p>
+                    </div>
+                    <div class="single_info">
+                        <p>School of Information Technology</p>
+                    </div>
+                    <div class="single_info">
+                        <p>Palkalai Nagar</p>
+                    </div>
+                    <div class="single_info">
+                        <p>Madurai-625021</p>
+                    </div>
+
                 </div>
-                <div class="single_info">
-                    
-                    <p>Department of Computer Science</p>
-                </div>
-                <div class="single_info">
-                    <p>School of Information Technology</p>
-                </div>
-                <div class="single_info">
-                    <p>Palkalai Nagar</p>
-                </div>
-                <div class="single_info">
-                    <p>Madurai-625021</p>
-                </div>
-               
             </div>
         </div>
-    </div>
-    <!-- map_area_end  -->
-    <!-- footer_start  -->
-   
-    <footer class="footer mb-5" id="contact">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="footer_widget">
-                            <div class="address_details text-center">
-                                <h4 class="wow fadeInUp text-light glow" data-wow-duration="1s" data-wow-delay=".3s">CONTACT</h4>
-                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Madurai Kamaraj University</h4>
-                                <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Palkalai Nagar, Madurai - 625021, Tamil Nadu, India</h3>
-                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">University With Potential for Excellence</p>
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-98LpIK1DtV-9TSD9ZaycFG5sE7v02Y7HlhPtgsvgj9d5bA/viewform" class="boxed-btn3 wow fadeInUp shadow rounded-5" data-wow-duration="1s" data-wow-delay=".6s">Register Now</a>
-                                <h4 class="text-light mt-5"><span class="text-primary mt-5">COORDINATORS: </span>Nagarathinam, Madhan Kumar, Jai Prasanna</h4>
-                    <h4 class="text-light"><span class="text-primary">CONTACT NUMBERS: </span>6374010338, 7708882689, 8220464687</h4>
+        <!-- map_area_end  -->
+        <!-- footer_start  -->
+
+        <footer class="footer mb-5" id="contact">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="footer_widget">
+                                <div class="address_details text-center">
+                                    <h4 class="wow fadeInUp text-light glow" data-wow-duration="1s" data-wow-delay=".3s">CONTACT</h4>
+                                    <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Madurai Kamaraj University</h4>
+                                    <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Palkalai Nagar, Madurai - 625021, Tamil Nadu, India</h3>
+                                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">University With Potential for Excellence</p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-98LpIK1DtV-9TSD9ZaycFG5sE7v02Y7HlhPtgsvgj9d5bA/viewform" class="boxed-btn3 wow fadeInUp shadow rounded-5" data-wow-duration="1s" data-wow-delay=".6s">Register Now</a>
+                                    <h4 class="text-light mt-5"><span class="text-primary mt-5">COORDINATORS: </span>Nagarathinam, Madhan Kumar, Jai Prasanna</h4>
+                                    <h4 class="text-light"><span class="text-primary">CONTACT NUMBERS: </span>6374010338, 7708882689, 8220464687</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <footer class="footer text-center bg-secondary mt-auto">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="footer_widget" >
-                            <h2 style="color:skyblue">COUNTDOWN TO OUR TECHNICAL SYMPOSIUM</h2><br>
-                            <h2 style="color:rgb(255, 255, 255)" id="demo"></h2>
-                            
+        </footer>
+        <footer class="footer text-center bg-secondary mt-auto">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="footer_widget">
+                                <h2 style="color:skyblue">COUNTDOWN TO OUR TECHNICAL SYMPOSIUM</h2><br>
+                                <h2 style="color:rgb(255, 255, 255)" id="demo"></h2>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- footer_end  -->
+        </footer>
+        <!-- footer_end  -->
 
-    <!-- JS here -->
-    
-   
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/tilt.jquery.js"></script>
-    <script src="js/plugins.js"></script>
+        <!-- JS here -->
 
 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/scrollIt.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/gijgo.min.js"></script>
+        <script src="js/nice-select.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/tilt.jquery.js"></script>
+        <script src="js/plugins.js"></script>
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    
-<script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Feb 16, 2023 00:00:00").getTime();
-    
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-    
-      // Get today's date and time
-      var now = new Date().getTime();
-    
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-    
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-      // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-    
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
 
-    <script src="js/main.js"></script>
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("mybutton").classList.add("p");
-          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("mybutton").classList.remove("p");
-          document.body.style.backgroundColor = "white";
-        }
+
+        <!--contact js-->
+        <script src="js/contact.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/mail-script.js"></script>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Feb 16, 2023 00:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                    minutes + "m " + seconds + "s ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
         </script>
-           
+
+        <script src="js/main.js"></script>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("mybutton").classList.add("p");
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("mybutton").classList.remove("p");
+                document.body.style.backgroundColor = "white";
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/8b23cb49a6.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
